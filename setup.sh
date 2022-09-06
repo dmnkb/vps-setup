@@ -37,4 +37,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
+# Install make
+sudo apt install make
+
 echo "Setup Done! Finished installing Git and Docker and setting up the firewall."
